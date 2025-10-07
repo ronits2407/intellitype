@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h3>IntelliType Settings</h3>
+  <label for="apiKey">Your OpenAI API Key:</label>
+  <input type="password" id="apiKey" placeholder="sk-...">
+  
+  <label for="tone">Select Tone:</label>
+  <select id="tone">
+    <option value="Casual">Casual</option>
+    <option value="Formal">Formal</option>
+    <option value="Friendly">Friendly</option>
+  </select>
+  
+  <button id="saveButton">Save Settings</button>
+  <p id="status"></p>
+  <script src="popup.js"></script>
+</body>
+</html>
